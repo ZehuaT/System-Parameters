@@ -73,6 +73,13 @@ dcLinkCapacitor = 1.6; % unit: p.u.
 %% QVD-GFM
 QVDroop = 0.05; % unit: p.u.
 
+%% CacDS-GFL
+kG  = 39.3; % unit: p.u.
+kJ  = 15; % unit: p.u.
+kD  = 400; % unit: p.u.
+kVC = 1; % unit: p.u.
+kQC = 0; % unit: p.u.
+
 %% FFR-GFL
 wPDroop = 0.01; % unit: p.u./(rad/s)
 KpQV = 0.06; % unit: p.u.
