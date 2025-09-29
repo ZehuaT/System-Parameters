@@ -42,7 +42,7 @@ KpPC   = 0.06; % unit: p.u.
 KiPC   = 0.49; % unit: p.u./s
 
 %% GFM-PV
-Null
+% null
 
 %% GFM-PQ
 KpQC = 0.06; % unit: p.u.
