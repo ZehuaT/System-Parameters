@@ -4,6 +4,7 @@ System parameters for numerical simulations and CHIL experimental studies.
 %% Grid Parameters
 PowerRating   = 25e3; % unit: W
 GridFrequency = 50; % unit: Hz
+GridRadFreq   = 2*GridFrequency*3.14159; % unit: rad/s, note: w
 GridVoltage   = 400; % unit: V
 wLg           = 0.2; % unit: p.u., note: SCR = 5 by default
 Rg            = 0.04; % unit: p.u.
