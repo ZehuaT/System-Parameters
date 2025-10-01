@@ -30,8 +30,8 @@ kVF                = 1; % unit: p.u.
 tauVF              = 0.01; % unit: sec
 
 %% Basic GFM Parameters
-J    = 0.01; % unit:
-D    = 0.32; % unit:
+J    = 3.14; % unit: p.u./(rad/s^2)
+D    = 100; % unit: p.u./(rad/s)
 KpVC = 9; % unit: p.u.
 KiVC = 1.13; % unit: p.u./s
 
