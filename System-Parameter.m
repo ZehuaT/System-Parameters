@@ -58,11 +58,17 @@ KpQV = 0.126; % unit: p.u.
 KiQV = 19.7; % unit: p.u./s
 
 %% MC-GFM
+% For MC-GFM and FFL-GFM, dc-link ideal voltage source 
+% is replaced with a controlled current source, with I*=P*/Vdc,
+% acting as a constant power source
 KpVdc           = 100.5; % unit: rad/s
 KiVdc           = 789.6; % unit: rad/(s^2)
 dcLinkCapacitor = 1.6; % unit: p.u.
 
 %% FFL-GFM
+% For MC-GFM and FFL-GFM, dc-link ideal voltage source 
+% is replaced with a controlled current source, with I*=P*/Vdc,
+% acting as a constant power source
 R_coefficient = 300; % unit: p.u.
 N_coefficient = 1.57; % unit: rad/s/p.u.
 dcLinkCapacitor = 1.6; % unit: p.u.
